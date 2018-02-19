@@ -5,3 +5,8 @@ So far it uses HAAR cascade, and trains it using the training algorithm availabl
 
 Here is an example of a successful detection using HAAR cascade. 
 
+![example](example.png)
+
+The difficult part of achieving good detection is building a good set of training data. That includes both positive images (LASER points) and negative images (general backgrounds without LASER points). 
+
+![positives](positives.png)
